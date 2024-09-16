@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+
+font-family: 'Roboto', sans-serif;
+	
+}
+
+header {
+    text-align: center;
+    margin-top: 5%;
+    color: white;
+}
+
+body {
+    background-color: blue;
+}
+
+section {
+    display: flex;
+}
+
+#meuFormulario {
+    display:block;
+    text-align: center;
+    margin: auto;
+    background-color: azure;
+    width: 400px;
+    height: 600px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+}
+
+#res {
+    display:block;
+    margin: auto;
+    text-align: justify;
+    width: 400px;
+    height: 600px;
+    background-color: azure;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+    padding: 20px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    padding: 20px;
+}
+
+.proc, #delete {
+    border: 2px solid black;
+}
+
+button {
+    display: block;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+#inf {
+    text-align: center;
+    font-style: italic;
+    color: white;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Modelo </title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body id="area">
+
+    <header>
+
+        <h1> CRUD 2 </h1>
+
+    </header>
+
+    <section>
+
+        <div id="meuFormulario">
+
+            <p> Atualização de dados:</p>
+
+            <label for="código"> Qual o código do cliente? 
+                <input type="number" id="editId">
+            </label>
+
+            <label for="nome"> Nome Atualizado: 
+                <input type="text" id="editNome">
+            </label>
+
+            <label for="e-mail"> E-mail Atualizado: 
+                <input type="text" id="editEmail">
+            </label>
+
+            <label for="telefone"> Telefone Atualizado: 
+                <input type="text" id="editTelefone">
+            </label>
+
+
+            <button onclick="editperson()"> Atualizar </button>
+
+            <br>
+
+            <div id="delete">
+                <label for="delete"> Deletar Informações Cliente</label>
+                <input type="number" name="deleteId" id="deleteId">
+                <button onclick="del()"> Delete </button>
+
+            </div>
+
+            <br>
+
+            <div class="proc">
+            <label for="codigoCliente"> Código do Cliente</label>
+            <input type="number" name="codigoCliente" id="codigoCliente">
+            <button onclick="showById()"> Localizar dados Cliente</button>
+            </div>
+
+            <br>
+
+            <br>
+
+            
+
+
+        </div>
+
+        <br>
+
+        <div id="res"></div>
+
+    
+
+    </section>
+
+
+    <p id="inf"> Rodrigo!</p>
+
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>

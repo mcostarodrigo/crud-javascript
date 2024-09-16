@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Modelo </title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body id="area">
+
+    <header>
+
+        <h1> CRUD </h1>
+
+    </header>
+
+    <section>
+
+        <div id="meuFormulario">
+
+            <label for="nome"> Nome: 
+                <input type="text" id="nome">
+            </label>
+
+            <label for="e-mail"> E-mail: 
+                <input type="text" id="e-mail">
+            </label>
+
+            <label for="telefone"> Telefone: 
+                <input type="text" id="telefone">
+            </label>
+
+
+            <button onclick="show()"> Cadastrar </button>
+
+            <button onclick="ShowDisplay()"> Mostrar Lista</button>
+
+            <br>
+
+            <div class="proc">
+            <label for="codigoCliente"> Código do Cliente</label>
+            <input type="number" name="codigoCliente" id="codigoCliente">
+            <button onclick="showById()"> Localizar dados Cliente</button>
+            </div>
+            <br>
+
+            <div class="proc">
+                <label for="nomeCliente"> Nome Cliente</label>
+                <input type="text" id="nomeCliente">
+                <button onclick="showByName()"> Localizador por Nome</button>
+            </div>
+
+            <br>
+
+            <div> <a href="/modelo2.html"> Para <strong>Editar </strong> ou <strong> Deletar</strong> um item clique aqui </a> </div>
+
+        </div>
+
+        <br>
+
+        <div id="res"></div>
+    
+
+    </section>
+
+
+    <p id="inf"> Rodrigo!</p>
+
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
